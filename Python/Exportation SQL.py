@@ -4,8 +4,6 @@ import sqlalchemy as sa
 from sqlalchemy import create_engine
 from sqlalchemy import types
 
-df=pd.read_csv('PORTAFOLIO_CONSUMER_ANALYTICS/Data/consumer_clean.csv')
-
 def cargar_datos(ruta):
     return pd.read_csv(ruta)
 
