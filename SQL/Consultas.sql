@@ -1,12 +1,12 @@
 
 -- IF NOT EXISTS (SELECT name FROM sys.databases WHERE name = 'consumer_analytics')
 -- Esta función de arriba es para automatizar la creación debases de datos.
-
-
 CREATE DATABASE consumer_analytics
 ;
 USE consumer_analytics
 ;
+
+SELECT name FROM sys.databases;
 
 SELECT
     *
